@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".change_status">
+
+    <include
+        android:id="@+id/status_bar"
+        layout="@layout/app_bar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/chnginput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/savechng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="25dp"
+        android:background="#eb1809"
+        android:padding="8dp"
+        android:text="SAVE CHANGES"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

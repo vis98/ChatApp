@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="we">Welcome</string>
+    <string name="need_a_acc">NEED A NEW ACCOUNT?</string>
+    <string name="have_acc">ALREADY HAVE AN ACCOUNT</string>
+    <string name="createacc">CREATE ACCOUNT</string>
+    <string name="lo">Log Out</string>
+    <string name="accset">Account settings</string>
+</resources>
